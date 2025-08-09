@@ -34,7 +34,7 @@ With a single click, you can:
 
 ## 🚀 Live Demo
 
-🔗 [View Live Project](https://yourusername.github.io/random-quote-generator/) *(Update with your link)*
+🔗 [View Live Project](https://swathikashyap10.github.io/random-quote-generator/) 
 
 
 ---
