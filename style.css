@@ -1,0 +1,81 @@
+/* google font import  */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color:#A0D5F0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+}
+
+.quote-container{
+    width:605px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 18px;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    line-height: 1.6;
+}
+
+.quote-content{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.quote{
+    font-size: large;
+}
+
+.fa-quote-left{
+  margin-right:10px;
+}
+
+.fa-quote-right{
+  margin-left:10px;
+}
+
+.author{
+    float:inline-end;
+    margin-top:16px;
+}
+
+.quote-btns{
+    display:flex;
+    justify-content: space-between;
+    margin-top:18px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left:40px;
+    padding-right: 40px;
+}
+
+button{
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 8px;
+    padding-left:14px;
+    padding-right: 14px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    background-color: 	#A0D5F0;
+    border:1px solid black;
+}
+
+.generateBtn.loading{
+    opacity:0.7;
+    pointer-events: none;
+}
